@@ -390,10 +390,17 @@
   dependencies:
     "@vitejs/plugin-react" "^1.2.0"
 
-"@slinkity/renderer-svelte@^1.0.0":
-  version "1.0.0"
-  resolved "https://registry.yarnpkg.com/@slinkity/renderer-svelte/-/renderer-svelte-1.0.0.tgz#063f7dee8a5a59e88a453d0e0286e15d99fe9b72"
-  integrity sha512-mbXOUov9og1+BEmN2V3UmB7cL2WestF3J/jAoco3c2m1jFSGQOby81HE7PUuD+N2r/KuDjd4hBm8TutgwMpYvg==
+"@slinkity/renderer-svelte@./slinkity-renderer-svelte-1.0.1.tgz":
+  version "1.0.1"
+  uid ae02c6dad72ee0fb40071af77667eb2dfe5d3ac5
+  resolved "./slinkity-renderer-svelte-1.0.1.tgz#ae02c6dad72ee0fb40071af77667eb2dfe5d3ac5"
+  dependencies:
+    "@sveltejs/vite-plugin-svelte" "^1.0.0-next.35"
+    svelte-preprocess "^4.10.2"
+
+"@slinkity/renderer-svelte@file:../../Repositories/slinkity/packages/slinkity-renderer-svelte/slinkity-renderer-svelte-1.0.1.tgz":
+  version "1.0.1"
+  resolved "file:../../Repositories/slinkity/packages/slinkity-renderer-svelte/slinkity-renderer-svelte-1.0.1.tgz#ae02c6dad72ee0fb40071af77667eb2dfe5d3ac5"
   dependencies:
     "@sveltejs/vite-plugin-svelte" "^1.0.0-next.35"
     svelte-preprocess "^4.10.2"

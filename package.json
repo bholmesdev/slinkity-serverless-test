@@ -25,7 +25,7 @@
   },
   "devDependencies": {
     "@11ty/eleventy": "^2.0.0-canary.9",
-    "@slinkity/renderer-svelte": "^1.0.0",
+    "@slinkity/renderer-svelte": "./slinkity-renderer-svelte-1.0.1.tgz",
     "slinkity": "file:./slinkity-0.9.0.tgz"
   }
 }
