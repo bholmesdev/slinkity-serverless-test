@@ -1931,9 +1931,9 @@ slash@^1.0.0:
   resolved "https://registry.yarnpkg.com/slash/-/slash-1.0.0.tgz#c41f2f6c39fc16d1cd17ad4b5d896114ae470d55"
   integrity sha1-xB8vbDn8FtHNF61LXYlhFK5HDVU=
 
-"slinkity@file:slinkity-0.8.2.tgz":
-  version "0.8.2"
-  resolved "file:slinkity-0.8.2.tgz#16a129be79a6047425ab2fd54fb8fa8f324bb69f"
+"slinkity@file:./slinkity-0.9.0.tgz":
+  version "0.9.0"
+  resolved "file:./slinkity-0.9.0.tgz#e1080afe4940653b8687b078685c29ceeb61e669"
   dependencies:
     chalk "4.1.2"
     commander "^5.1.0"
