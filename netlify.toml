@@ -1,0 +1,17 @@
+[build]
+command = "npx slinkity"
+publish = "_site"
+
+[[redirects]]
+from = "/svelte-page/"
+to = "/.netlify/functions/possum"
+status = 200
+force = true
+_generated_by_eleventy_serverless = "possum"
+
+[[redirects]]
+from = "/deployment/"
+to = "/.netlify/functions/possum"
+status = 200
+force = true
+_generated_by_eleventy_serverless = "possum"
